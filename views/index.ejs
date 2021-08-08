@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Partagr - Easy Sharing</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <section class="upload-container">
+      <div class="drop-zone">
+        <div class="icon-container">
+          <img src="https://raw.githubusercontent.com/ShivamJoker/InShare/master/file.svg" alt="fileicon" draggable="false" class="center">
+          <img src="https://raw.githubusercontent.com/ShivamJoker/InShare/master/file.svg" alt="fileicon" draggable="false" class="left">
+          <img src="https://raw.githubusercontent.com/ShivamJoker/InShare/master/file.svg" alt="fileicon" draggable="false" class="right">
+        </div>
+        <input type="file" id="fileinput">
+        <div class="title">Drop your Files Here or <span class="browsebtn">browse</span></div>
+      </div>
+        <div class="progress-container">
+          <div class="bg-progress">
+            <div class="percent-container">
+              <span id="percent">0</span>%
+            </div>
+          </div>
+        </div>
+        <div class="sharing-container">
+          <p class="expire">Link Expires in 24 Hrs</p>
+          <div class="input-container">
+            <input type="text" id="fileURL" readonly>
+            <img src="https://raw.githubusercontent.com/ShivamJoker/InShare/master/copy-icon.svg" alt="copy-icon" id="copybtn">
+          </div>
+          <p>Or Send Via Email</p>
+          <div class="email-container">
+            <form id="emailform">
+              <div class="filed">
+                <label for="sender">Your email</label>
+                <input type="email" required name="fromemail" id="sender">
+              </div>
+              <div class="filed">
+                <label for="receiver">Receiver's Email</label>
+                <input type="email" name="toemail" id="receiver">
+              </div>
+              <div class="sendbtn-container">
+                <button type="submit" name="button">Send</button>
+              </div>
+
+
+
+            </form>
+
+          </div>
+        </div>
+
+    </section>
+    <script type="text/javascript" src="js\jsindex.js" charset="utf-8"></script>
+  </body>
+</html>
