@@ -1,19 +1,17 @@
 {
   "name": "inshare",
   "version": "1.0.0",
-  "description": "File Sharing app",
+  "description": "Partagr",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Nimesh",
-  "license": "ISC",
-  "engines": {
-    "node": "14.17.1"
-  },
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "require": "^2.4.20"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nimesh",
+  "license": "ISC"
 }
